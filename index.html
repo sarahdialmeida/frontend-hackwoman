@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>StepUp</title>
 </head>
 
@@ -12,51 +14,75 @@
 <body>
     <main class="container">    <!-- Container com os segmentos do corpo da página a fim de agrupar mais facilmente os elementos -->
         <nav class="navbar">    <!-- Barra de navegação da página  -->
+            <div class="logo">
+                <img src="./image/Logo-crop.png" alt="logo">
+            </div>
+          
             <ul>
                 <li><a href="#speed-hiring">O que é speed hiring?</a></li>
                 <li><a href="#vantagens">Vantagens</a></li>
                 <li><a href="#prepare">Prepare-se</a></li>
                 <li><a href="#objetivo">Nosso objetivo</a></li>
                 <li><a href="#parcerias">Parcerias</a></li>
-                <li><a href="#">LOGIN</a></li>
+                <li><a class="login" href="#">LOGIN</a></li>
             </ul>
         </nav>
 
         <section id="home">     <!-- Seção para filtrar cadastros (se para a empresa OU para a candidata) -->
             <h1>Dê o primeiro passo na sua carreira!</h1>
-            <div class="para-mim">
+            <div href="#" class="para-mim">
+
                 É para mim
             </div>
-            <div class="para-empresa">
+            <div href="#" class="para-empresa">
                 É para minha empresa
             </div>
-            <div class="#">
-                <img src="#">
+
+            <div class="imagemHome">
+                <img src="./image/image1.png">
             </div>
+            <div class="bloco">
+            </div>
+
         </section>
 
         <section id="speed-hiring">     <!-- Seção introdutória sobre o conceito do método de contratação "Speed Hiring" -->
-            <div>
-                <h1>O que é o Speed Hiring?</h1>
-                <p>Speed Hiring é um evento de contratação para conectar as ex-alunas destaque das escolas e as empresas
-                    contratantes. Nas quatro
-                    edições realizadas tivemos:</p>
+            <div class="blocotxt">
+                <div class="linhaverticalSH"></div>
+                <div class="screenSH">O que é o Speed Hiring?</div>
+                <p class="textoSH">Speed Hiring é um evento de contratação para conectar as ex-alunas destaque das
+                    escolas e as empresas contratantes. Nas quatro edições realizadas tivemos:</p>
             </div>
 
-            <div class="passo1">
-                <p>Você se cadastra na nossa plataforma.</p>
+            <div id="blocotxt-1">
+                <div class="numero1">1</div>
+                <a class="linhaverticalSH1"></a>
+                <div class="passo1">
+                    <p>Você se cadastra na nossa plataforma.</p>
+                </div>
+            </div>
 
+            <div id="blocotxt-2">
+                <p class="numero2">2</p>
+                <a class="linhaverticalSH2"></a>
                 <div class="passo2">
                     <p>A empresas nos mostram o perfil desejado</p>
                 </div>
+            </div>
 
+            <div id="blocotxt-3">
+                <p class="numero3">3</p>
+                <a class="linhaverticalSH3"></a>
                 <div class="passo3">
-                    <p>Nós fazemos o match e você dá um grande passo a sua carreira</p>
+                    <p>Nós fazemos o match e você dá um grande passo a
+                        sua carreira!</p>
                 </div>
+            </div>
         </section>
 
         <section id="vantagens">    <!-- Seção que elenca as vantagens do Speed Hiring -->
-            <h2>Quais as vantagens desse modelo?</h2>
+            <div class="linha-vantagens"></div>
+            <a class="texto-vantagens">Quais as vantagens desse modelo?</a>
 
             <div class="candidata">
                 <p>Candidatas</p>
@@ -154,8 +180,9 @@
                             Step Up
                         </div>
                     </p>
-                </div>
+                 </div>
         </div>
     </footer>
 </body>
+
 </html>
