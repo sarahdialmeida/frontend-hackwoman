@@ -4,21 +4,18 @@
   }
   
   body {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', sans-serif;
     background: white;
     color: black;
     line-height: 1.6;
     height: 100vh;
+    weight: 300;
 
   }
   
   .container {
     width: 100%;
     height: 100%;
-    /* CSS-based smooth scrolling */
-    /* overflow-y: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory; */
   }
   
   .logo {
@@ -29,7 +26,6 @@
 
   .logo img {
     width: 200px;
-    ;
   }
 
   .navbar {
@@ -71,6 +67,7 @@
     border: solid 1px #322F65;
     padding: 0.6rem 5rem;
   }
+
   section {
     display: flex;
     flex-direction: column;
@@ -84,6 +81,7 @@
   
   section h1,
   section h2 {
+    font-family: 'Roboto', sans-serif;
     font-size: 4rem;
   }
   
@@ -92,7 +90,7 @@
   }
 
   #home {
-    font-family: 'Roboto';
+    height: 110vh;
     font-style: normal;
     font-weight: 300;
     font-size: 60px;
@@ -134,8 +132,6 @@
     text-align: left;
   }
 
-
-
   .para-mim {
     position: absolute;
     width: 305px;
@@ -176,8 +172,142 @@
     color: #FFFFFF;
     border: 1px solid #322F65;;
   }
+
+  #speed-hiring {
+    background-color: #FFFFFF;
+  }
   
+  .linhaverticalSH {
+    position: absolute;
+    height: 60px;
+    width: 5px;
+    left: 96px;
+    top: 770px;
+    background-color: #5A4FF3;
+  }
+
+  .screenSH {
+    position: absolute;
+    font-size: 60px;
+    left: 70px;
+    top: 750px;
+    width: 762px;
+  }
+
+    .textoSH {
+    position: absolute;
+    font-size: 24px;
+    left: 95px;
+    top: 860px;
+    width: 660px;
+    text-align: left;
+  }
+
+  #blocotxt-1 {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 280px;
+    height: 80px;
+    left: 96px;
+    top: 1180px;
+  }
+
+  .linhaverticalSH1  {
+    position: absolute;
+    height: 100px;
+    width: 5px;
+    align-self: center;
+    left: 40px;
+    background-color: #5A4FF3;
+  }
+
+  .numero1 {
+    font-size: 60px;
+    align-self: center;
+    justify-content: start;
+    padding-right:20px;
+  }
   
+  .passo1 {
+    font-size: 60px;
+    width: 286px;
+    text-align: left;
+  }
+
+  #blocotxt-2 {
+    display: flex;
+    position: absolute;
+    width: 340px;
+    height: 80px;
+    left: 500px;
+    top: 1080px;
+  }
+
+  .linhaverticalSH2  {
+    position: absolute;
+    height: 100px;
+    width: 5px;
+    align-self: center;
+    left: 40px;
+    background-color: #5A4FF3;
+  }
+
+  .numero2 {
+    font-size: 60px;
+    align-self: center;
+    justify-content: start;
+    padding-right:20px;
+  }
+  
+  .passo2 {
+    font-size: 60px;
+    width: 286px;
+    text-align: left;
+  }
+  
+  #blocotxt-3 {
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 956px;
+    top: 980px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .linhaverticalSH3 {
+    position: absolute;
+    height: 100px;
+    width: 5px;
+    align-self: center;
+    left: 40px;
+    background-color: #5A4FF3;
+  }
+
+  .numero3 {
+    font-size: 60px;
+    align-self: center;
+    justify-content: start;
+    padding-right:20px;
+  }
+  
+  .passo3 {
+    font-size: 60px;
+    width: 286px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #vantagens {
+    color: #FFFFFF;
+    background-color: #322F65;
+  }
+
+
+
 footer {
   position: absolute;
   width: 100%;
