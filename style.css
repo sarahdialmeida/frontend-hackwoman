@@ -11,8 +11,6 @@
     color: black;
     line-height: 1.6;
     height: 100vh;
-    weight: 300;
-
   }
   
 /* ----- MAIN ----- */
@@ -94,7 +92,7 @@
   }
 
   #home {
-    height: 110vh;
+    height: 100vh;
     font-style: normal;
     font-weight: 300;
     font-size: 60px;
@@ -198,11 +196,20 @@
     width: 762px;
   }
 
-    .textoSH {
+  .textoSH {
     position: absolute;
     font-size: 24px;
     left: 95px;
     top: 860px;
+    width: 660px;
+    text-align: left;
+  }
+
+  .textoSH p {
+    position: absolute;
+    font-size: 24px;
+    left: 0;
+    top: 110px;
     width: 660px;
     text-align: left;
   }
@@ -305,10 +312,170 @@
     align-items: center;
   }
 
-  #vantagens {
-    color: #FFFFFF;
-    background-color: #322F65;
-  }
+#vantagens {
+  width: auto;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  font-family: 'Roboto', sans-serif;
+
+  color: #FFFFFF;
+  background-color: #322F65;
+}
+
+.linha-vantagens {
+  position: absolute;
+  height: 140px;
+  width: 5px;
+  left: 80px;
+  top: 1360px;
+  background-color: #5A4FF3;
+}
+
+.texto-vantagens {
+    position: absolute;
+    font-size: 60px;
+    width: 535px;
+    height: 170px;
+    top: 1360px;
+    left: 125px;
+    line-height: 70px;
+    font-weight: lighter;
+    align-items:center;
+    justify-content: center;
+    text-align: left;
+}
+
+
+.vantagem-txt {
+    font-size: 19px;
+    font-weight:30;
+}
+
+.candidata {
+  position: relative;
+  width: 320px;
+  height: 380px;
+  top: 90px;
+  text-align: center;
+  padding: 10px;
+  background-color: none;
+  border: 3px solid #5A4FF3;
+}
+
+.candidata-txt {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.empresa {
+  position: relative;
+  width: 320px;
+  height: 380px;
+  top: 90px;
+  text-align: center;
+  padding: 10px;
+  background-color: none;
+  border: 3px solid #5A4FF3;
+}
+
+.empresa-txt {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+#objetivo {
+  width: auto;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  font-family: 'Roboto', sans-serif;
+
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.linha-obj {
+  position: absolute;
+  height: 140px;
+  width: 5px;
+  left: 80px;
+  top: 2060px;
+  background-color: #5A4FF3;
+}
+
+.objetivo-txt p {
+  position: absolute;
+  width: 450px;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: lighter;
+  align-items:center;
+  justify-content: center;
+  text-align: left;
+  top: 0px;
+  left: 55px;
+  text-align: left;
+
+}
+
+/* Seção que discorre sobre o objetivo da StepUp */
+.texto-obj {
+  position: absolute;
+  font-size: 24px;
+  left: 95px;
+  top: 190px;
+  width: 800px;
+  text-align: left;
+}
+
+/* Elemntos decorativos a serem eplementados */
+/* #blocos {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 320px;
+  width: 510px;
+  top: 1950px;
+
+}
+
+.bloco1{
+  position: relative;
+  width: 200px;
+  height: 88px;
+  top: 0px;
+  background-color: #DCD9FB;
+}
+
+.bloco2{
+  position: relative;
+  width: 450px;
+  height: 88px;
+  top: 90px;
+  background-color: #DCD9FB;
+}
+
+.bloco3{
+  position: relative;
+  width: 510px;
+  height: 88px;
+  top: 180px;
+  background-color: #DCD9FB;
+} */
+
+/* Seção para a candita saber como preparar-se */
+
+#prepare {
+  background-color: #322F65;
+  color:#FFFFFF;
+}
 
   .linha-parcerias {
     position: absolute;
@@ -353,6 +520,7 @@
   .lista-parcerias {
     top: 4700px;
   }
+
 
 /* ----- FOOTER ----- */
 
